@@ -10,6 +10,6 @@ public class jumpGame {
 
     }
     public int jump(int[] nums) {
-
+        return 0;
     }
 }

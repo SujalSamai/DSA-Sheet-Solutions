@@ -11,6 +11,6 @@ public class minHeights {
 
     }
     int getMinDiff(int[] arr, int k) {
-
+        return k;
     }
 }
