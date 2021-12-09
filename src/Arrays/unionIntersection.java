@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.HashSet;
 
 //https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1

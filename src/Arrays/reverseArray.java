@@ -1,3 +1,4 @@
+package Arrays;
 //https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/
 import java.util.Arrays;
 import java.util.Scanner;

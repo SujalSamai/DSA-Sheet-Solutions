@@ -1,3 +1,4 @@
+package Arrays;
 /*https://leetcode.com/problems/jump-game-ii/
 Given an array of non-negative integers nums, you are initially positioned at the first index of the array.
 Each element in the array represents your maximum jump length at that position.
