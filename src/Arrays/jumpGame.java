@@ -7,7 +7,7 @@ You can assume that you can always reach the last index.*/
 
 public class jumpGame {
     public static void main(String[] args) {
-
+        int[] arr={2,3,1,1,4};
     }
     public int jump(int[] nums) {
         return 0;

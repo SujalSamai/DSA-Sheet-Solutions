@@ -11,11 +11,10 @@ public class palindrome {
         System.out.println(isPalindrome(name));
     }
     static int isPalindrome(String S) {
-        // code here
         String reverse="";
         int n= S.length();
         for (int i = n-1; i >= 0; --i) {
-            reverse=reverse+ S.charAt(i);
+            reverse=reverse + S.charAt(i);
         }
         if(S.toLowerCase().equals(reverse.toLowerCase())){
             return 1;
