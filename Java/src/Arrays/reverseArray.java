@@ -1,5 +1,8 @@
 package Arrays;
 //https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/
+//Difficulty level: Basic
+//Question: Given an array (or string), the task is to reverse the array/string.
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -20,11 +23,10 @@ public class reverseArray {
     static void ReverseArr(int[] arr){
         int start= 0;
         int end= arr.length-1;
-        int temp;
         while(start<end){
-            temp= arr[start];
+            int temp=arr[start];
             arr[start]= arr[end];
-            arr[end]=temp;
+            arr[end]= temp;
             start++;
             end--;
         }
