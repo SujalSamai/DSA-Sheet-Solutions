@@ -10,13 +10,13 @@ public class commonElements {
         int[] arr3={3, 4, 15, 20, 30, 70, 80, 120};
         System.out.println(commonEl(arr1,arr2,arr3,6,5,8));
     }
-    static ArrayList<Integer> commonEl(int A[], int B[], int C[], int n1, int n2, int n3)
+    static ArrayList<Integer> commonEl(int[] A, int[] B, int[] C, int n1, int n2, int n3)
     {
         ArrayList<Integer> a= new ArrayList<>();
         int i=0,j=0,k=0;
         while(i<n1 && j<n2 && k<n3) {       //runs till any of the array gets traversed completely
             if(A[i] == B[j] && B[j] == C[k]) {
-                if(!a.contains(A[i])) a.add(A[i]);
+                if(!a.contains(A[i])) a.add(A[i]);  //add A[i] only if it's not present already
                 i++;j++;k++;
             } else if(A[i] < B[j]) {   //as array is sorted
                 i++;
