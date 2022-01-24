@@ -1,3 +1,4 @@
+//https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1
 package main
 
 import (
@@ -23,6 +24,20 @@ func minHeight(arr []int, k, n int) int {
 	}
 	return result
 }
+
+func myAlgrothim(arr []int, k, n int) int {
+	pArray, nArray := []int{}, []int{}
+	for i := 0; i < n; i++ {
+		pArray = append(pArray, arr[i]+k)
+		nArray = append(nArray, arr[i]-k)
+	}
+	sort.Ints(pArray)
+	sort.Ints(nArray)
+	maxSum := min(nArray[n-1], pArray[n-1]) - max(nArray[0], pArray[0])
+	return maxSum
+}
+
+// PS: This approch is similar to the one applied above.
 
 func max(x, y int) int {
 	if x < y {
