@@ -1,6 +1,6 @@
 package Matrices;
-
-
+//https://www.geeksforgeeks.org/rotate-a-matrix-by-90-degree-in-clockwise-direction-without-using-any-extra-space/
+//Given a square matrix, turn it by 90 degrees in a clockwise direction without using any extra space.
 import java.util.Arrays;
 
 public class Rotate90 {
